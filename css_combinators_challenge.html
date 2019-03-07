@@ -9,13 +9,21 @@
         
         /* https://developer.mozilla.org/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors#Combinators_and_selector_lists */
         /* WRITE YOUR CSS HERE */
-        .oranges li{
-            color: violet;
+        .violet li{
+            color: #FF00FF;
         }
         
-        A>B{
-            color:red;
+        div>p{
+            color: #FF0000;
             
+        }
+        
+        div p + p{
+            color: #0000FF;
+        }
+        
+        ul~li{
+            color: #FFA500;
         }
 
     </style>
@@ -24,16 +32,19 @@
 <body>
     <div>
         leave this text as the default black
-        <ol class="oranges">
+        <ol class="violet">
             <li>make the text for list items 1 and 2 violet using a descendant selector</li>
             <li>make the text for list items 1 and 2 violet using a descendant selector</li>
         </ol>
+        
         <p>
             make this text red using a child selector
         </p>
+        
         <p>
             make this text blue using an adjacent selector
         </p>
+        
         <ul>
             <li>make this text orange using a general sibling selector; <em>and this phrase pink by combining 2 types of selectors</em></li>
         </ul>
