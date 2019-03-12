@@ -73,3 +73,39 @@ body{
     word-spacing: 30px;
 }
 
+
+/*why*/
+#why{
+    background-color: #b6ead3;
+    margin: 0 0 0 0;
+    padding: 40px 400px;
+    color: #347788;
+}
+
+#why h1{
+    text-align: center;
+}
+#why p{
+    font-size: 16px;
+}
+
+
+/*where*/
+#where{
+    background-image: url(img/map.gif);
+    background-position: center;
+    margin: 0 0 0 0;
+    padding: 40px 400px;
+    color: #bd488b;
+}
+
+#where h1{
+    text-align: center;
+    margin-bottom: 40px
+}
+#where p{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 350px;
+}
