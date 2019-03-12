@@ -34,7 +34,7 @@ body{
     margin-top: 40px;
 }
 
-.register_button{
+.register_btn{
     background-color: #ee4433;
     border: 2px dashed #aa4433;
     border-radius: 2em;
@@ -43,5 +43,33 @@ body{
     font-weight: bold;
     margin-top: 25px;
     padding: 15px 30px;
+}
+
+
+/* what*/
+#what{
+    background-color: rgba(209,244,227, 0.9);
+    margin-top: 370px;
+    padding: 40px 400px;
+    color: #347788;
+}
+
+#what h1, h2{
+    text-align: center;
+}
+
+#what p{
+    font-size: 16px;
+}
+#what h1+p{
+    font-size: 19px
+}
+
+#sponsor_logos img{
+    width: 240px;
+}
+#sponsor_logos {
+    text-align: center;
+    word-spacing: 30px;
 }
 
