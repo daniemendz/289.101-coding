@@ -1,1 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+body{
+    background-color:#82ddb5; 
+    background-image: url(img/illustration.gif), url(img/texture.jpg);
+    background-position: center 280px, left top;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 800px, auto;
+    margin: 0 0 0 0;
+    font-family: "Quicksand";
+}
+
+#nav{
+    background-color: #66bb99;
+    border-bottom: 2px dashed #448877;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 2em;
+    padding-top: 17px;
+    padding-bottom:17px;
+}
+
+#logo{
+    max-width: 360px;
+}
+
+#description, #date{
+    max-width: 220px;
+}
+
+#header{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.register_button{
+    background-color: #ee4433;
+    border: 2px dashed #aa4433;
+    border-radius: 2em;
+    color: #FFF;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px 30px;
+}
+
