@@ -16,6 +16,18 @@
                 grid-column: 1/4;
             }
             
+            #green{
+                background-color: lime;
+                height: 200px;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                padding: 10px;
+            }
+            .yellow1{
+                background-color: yellow;
+                margin: 20px;
+            }
+            
             #red{
                 background-color: red;
                 height: 400px;
@@ -23,14 +35,9 @@
                 grid-template-columns: 50% 50%;
                 padding: 10px;
             }
-            .yellow{
+            .yellow2{
                 background-color: yellow;
                 margin: 20px;
-            }
-            
-            #green{
-                background-color: lime;
-                height: 200px;
             }
         </style>
     </head>
@@ -38,11 +45,14 @@
     <body>
         <div id="container">
             <div id="blue"></div>
-            <div id="red">
-                <div class="yellow"></div>
-                <div class="yellow"></div>
+            <div id="green">
+                <div class="yellow1"></div>
+                <div class="yellow1"></div>
             </div>
-            <div id="green"></div>
+            <div id="red">
+                <div class="yellow2"></div>
+                <div class="yellow2"></div>
+            </div>
         </div>
     </body>
 </html>
