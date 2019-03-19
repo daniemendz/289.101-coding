@@ -3,13 +3,39 @@
     <head>
         <title>Layout 1</title>
         <style>
-            
+            div{
+                outline: 1px solid black;
+            }
+            #container{
+                width: 800px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                /*or 25% 25% 25% 25% or 25% 75%*/
+            }
+            #blue{
+                background-color: blue;
+                height: 200px;
+                grid-column: 1/5;
+            }
+            #red{
+                background-color: red;
+                height: 600px;
+                grid
+            }
+            #green{
+                background-color: lime;
+                height: 600px;
+                grid-column: 2/5;
+            }
         </style>
     </head>
     
     <body>
-        <div id="blue"></div>
-        <div id="red"></div>
-        <div id="green"></div>
+        <div id="container">
+            <div id="blue"></div>
+            <div id="red"></div>
+            <div id="green"></div>
+        </div>
     </body>
 </html>
