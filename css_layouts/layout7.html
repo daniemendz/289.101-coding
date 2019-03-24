@@ -25,6 +25,9 @@
             #greenbg{
                 background-color: lime;
                 height: 500px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding: 20px;
             }
             #redbg{
                 background-color: red;
@@ -35,14 +38,42 @@
             }
             .titlebar{
                 background-color: yellow;
-                grid-column: 1/4;
+                grid-column: 1/5;
                 height: 100px;
+                margin:10px;
             }
-            .yellowred{
-                
+            .yellow1{
+                background-color: yellow;
+                height: 250px;
+                margin:10px;
             }
-            
-            
+            #bluebg{
+                background-color: blue;
+                height:650px;
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25%;
+                padding: 20px;
+            }
+            .yellow2{
+                background-color: yellow;
+                height: 150px;
+                margin:10px;
+            }
+            .yellow3{
+                background-color: yellow;
+                height: 350px;
+                margin:10px;
+            }
+            .yellow4{
+                background-color: yellow;
+                grid-column: 1/3;
+                height: 250px;
+                margin: 10px;
+            }
+            #footer{
+                background-color: blue;
+                height: 80px;
+            }
         </style>
     </head>
     
@@ -55,11 +86,37 @@
             <div id="greenbg"></div>
             <div id="redbg">
                 <div class="titlebar"></div>
-                <div class="yellowred"></div>
-                <div class="yellowred"></div>
-                <div class="yellowred"></div>
+                <div class="yellow1"></div>
+                <div class="yellow1"></div>
+                <div class="yellow1"></div>
             </div>
-                
+            <div id="bluebg">
+                <div class="titlebar"></div>
+                <div class="yellow2"></div>
+                <div class="yellow2"></div>
+                <div class="yellow2"></div>
+                <div class="yellow2"></div>
+                <div class="yellow2"></div>
+                <div class="yellow2"></div>
+                <div class="yellow2"></div>
+                <div class="yellow2"></div>
+                <div class="yellow2"></div>
+                <div class="yellow2"></div>
+                <div class="yellow2"></div>
+                <div class="yellow2"></div>
+            </div>
+            <div id="greenbg">
+                <div class="titlebar"></div>
+                <div class="yellow3"></div>
+                <div class="yellow3"></div>
+                <div class="yellow3"></div>
+            </div>
+            <div id="redbg">
+                <div class="titlebar"></div>
+                <div class="yellow4"></div>
+                <div class="yellow2"></div>
+            </div>
+            <div id="footer"></div>
                 
         </div>
     </body>
