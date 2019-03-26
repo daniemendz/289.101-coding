@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    font-family: "Lato","sans-serif";
+}
+
+.salmon{
+    color: #f06c64;
+}
+
+/*OUTLINEEE *{ 
+    outline: 1px solid lime;
+}*/
+
+#header{
+    background-color: #2d303a;
+    height:90px;
+    color: #fff;
+    border-bottom: solid 6px #505a81;
+}
+
+/*NAVIGATION*/
+.nav{
+    max-width: 950px; /**/
+    margin: auto; /*Center nav*/
+    display:grid;
+    grid-template-columns: 200px auto;
+}
+
+.logo{
+    margin-top: 27px;
+    font-size: 1.4rem;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.links{
+    margin: 34px;
+    font-size: 0.75rem;
+    text-align: right;
+    color: #505a81;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.banner{
+    text-align: center;
+    background-color: #f06c64;
+}
