@@ -14,14 +14,13 @@ body{
     outline: 1px solid lime;
 }*/
 
+/*NAVIGATION*/
 #header{
     background-color: #2d303a;
     height:90px;
     color: #fff;
     border-bottom: solid 6px #505a81;
 }
-
-/*NAVIGATION*/
 .nav{
     max-width: 950px; /**/
     margin: auto; /*Center nav*/
@@ -50,7 +49,69 @@ body{
     padding: 20px;
 }
 
+/*BANNER*/
 .banner{
     text-align: center;
     background-color: #f06c64;
+}
+
+.banner img{
+    max-width: 780px;
+    width: 95%;
+}
+
+/*SERVICES*/
+.services{
+    height: 515px;
+    color: #666d89;
+}
+
+.article{
+    padding: 40px;
+    max-width: 970px;
+    margin: auto;
+}
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 990px){
+    
+    body {
+        background-color: green;
+    }
+    
+    #header{
+        height: 100px;
+    }
+    
+    .logo{
+        margin-top: 20px;
+        text-align: center;
+        grid-column: 1/3;
+        margin-bottom: 10px;
+    }
+    .links{
+        grid-column: 1/3;
+        margin-top: 10px;
+        text-align: center;
+    }
+
 }
