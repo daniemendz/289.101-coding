@@ -10,9 +10,9 @@ body{
     color: #f06c64;
 }
 
-/*OUTLINEEE *{ 
+/*OUTLINEEE*/ *{ 
     outline: 1px solid lime;
-}*/
+}
 
 /*NAVIGATION*/
 #header{
@@ -61,13 +61,13 @@ body{
 }
 
 /*SERVICES*/
-.services{
+#services{
     height: 515px;
     color: #666d89;
 }
 
 .article{
-    padding: 40px;
+    padding: 40px 40px 10px 40px;
     max-width: 970px;
     margin: auto;
 }
@@ -75,11 +75,57 @@ body{
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #666d89;
 }
 
 .paragraph{
-    font-size: 1.2rem;
-    font-weight: 100;
+    font-size: 1.3rem;
+    color: #8a91ab;
+}
+
+.serGrid{
+    height: 340px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1040px;
+}
+
+.serSquares{
+    padding: 30px 40px 1px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.serIcon{
+    grid-column: 1/2;
+}
+
+.serArticle{
+    grid-column: 2/4;
+}
+
+/*PORTFOLIO*/
+#portfolio{
+    background-color: #2d303a;
+    height: 880px
+}
+
+#portfolio .paragraph{
+    color: #666d89;
+}
+
+.gallery{
+    height: 700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 990px;
+}
+
+.galPic{
+    margin: 10px;
+    text-align: center;
 }
 
 
